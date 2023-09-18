@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution jenpdf[jenpdf[]]]&#xD;&#xA;Solution jenpdf&#xD;&#xA;Solution jenpdf" />
+  <StartupProject value="{BEB2041A-38DA-4A77-BC09-FB72E4BA3042}" />
+</Properties>

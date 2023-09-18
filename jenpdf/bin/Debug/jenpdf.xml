@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>jenpdf</name>
+    </assembly>
+    <members>
+        <member name="T:jenpdf.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:jenpdf.CloseAUT.repo">
+            <summary>
+            Holds an instance of the jenpdfRepository repository.
+            </summary>
+        </member>
+        <member name="M:jenpdf.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:jenpdf.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:jenpdf.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:jenpdf.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:jenpdf.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:jenpdf.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:jenpdf.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:jenpdf.jenpdfRepository">
+            <summary>
+            The class representing the jenpdfRepository element repository.
+            </summary>
+        </member>
+        <member name="P:jenpdf.jenpdfRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the jenpdfRepository element repository.
+            </summary>
+        </member>
+        <member name="M:jenpdf.jenpdfRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:jenpdf.jenpdfRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:jenpdf.jenpdfRepository.RxMainFrame">
+            <summary>
+            The RxMainFrame folder.
+            </summary>
+        </member>
+        <member name="T:jenpdf.jenpdfRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:jenpdf.jenpdfRepositoryFolders.RxMainFrameAppFolder">
+            <summary>
+            The RxMainFrameAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:jenpdf.jenpdfRepositoryFolders.RxMainFrameAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxMainFrame  folder.
+            </summary>
+        </member>
+        <member name="P:jenpdf.jenpdfRepositoryFolders.RxMainFrameAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:jenpdf.jenpdfRepositoryFolders.RxMainFrameAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:jenpdf.jenpdfRepositoryFolders.RxMainFrameAppFolder.EnterYourName">
+            <summary>
+            The EnterYourName item.
+            </summary>
+        </member>
+        <member name="P:jenpdf.jenpdfRepositoryFolders.RxMainFrameAppFolder.EnterYourNameInfo">
+            <summary>
+            The EnterYourName item info.
+            </summary>
+        </member>
+        <member name="P:jenpdf.jenpdfRepositoryFolders.RxMainFrameAppFolder.BtnSubmitUserName">
+            <summary>
+            The BtnSubmitUserName item.
+            </summary>
+        </member>
+        <member name="P:jenpdf.jenpdfRepositoryFolders.RxMainFrameAppFolder.BtnSubmitUserNameInfo">
+            <summary>
+            The BtnSubmitUserName item info.
+            </summary>
+        </member>
+        <member name="T:jenpdf.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:jenpdf.Recording1.repo">
+            <summary>
+            Holds an instance of the jenpdfRepository repository.
+            </summary>
+        </member>
+        <member name="M:jenpdf.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:jenpdf.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:jenpdf.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:jenpdf.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:jenpdf.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:jenpdf.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:jenpdf.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:jenpdf.Recording2.repo">
+            <summary>
+            Holds an instance of the jenpdfRepository repository.
+            </summary>
+        </member>
+        <member name="M:jenpdf.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:jenpdf.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:jenpdf.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:jenpdf.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:jenpdf.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:jenpdf.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:jenpdf.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:jenpdf.StartAUT.repo">
+            <summary>
+            Holds an instance of the jenpdfRepository repository.
+            </summary>
+        </member>
+        <member name="M:jenpdf.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:jenpdf.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:jenpdf.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:jenpdf.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:jenpdf.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:jenpdf.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:jenpdf.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

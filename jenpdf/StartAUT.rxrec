@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0c6949b9-5443-4794-9859-d1a06db29559"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="jenpdf">
+	</codegen>
+	<variables>
+		<var
+		id="f91402ce-72ba-4ff0-9d1f-7c7874c3edbc"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\Kishore\Desktop\noc smart\rxdemo.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="bd3e3f86-71b0-4805-98e7-a14801c8b7c8"
+	name="jenpdfRepository"
+	relativepath="jenpdfRepository.rxrep">
+		<codegen
+		classname="jenpdfRepository"
+		namespace="jenpdf">
+		</codegen>
+		<rootfolder
+		id="ccbfe6eb-b124-4869-8bc8-48c1021fd759"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
